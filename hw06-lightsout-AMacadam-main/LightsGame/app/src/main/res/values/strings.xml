@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lights Out</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="blank">""</string>
+    <string name="NG">New Game</string>
+    <string name="MovePrompt">Moves Made:</string>
+    <string name="colorPrompt">Choose A Color For The Lights:</string>
+    <string name="colorButton">Change!</string>
+    <string name="RedChoice">Red</string>
+    <string name="BlueChoice">Blue</string>
+    <string name="YellowChoice">Yellow</string>
+    <string name="CongratsText">Congratulations on winning the game!</string>
+    <string name="helpText">Each button activates the adjacent buttons, turning them on or off.
+        Try to get all of the buttons off in order to win! \n \n To change the colors, go to the Color
+        Setting screen to choose the color of the lights when the are on.</string>
+    <string name="AuthorText">About Me: My name is Aidan Macadam and I am a senior at UML. \n \n
+        The game is a small version of the lights game, in which the objective is to try and turn
+        every light off in the least amount of moves possible. \n \n
+        Version Number: 1.0</string>
+    <string name="color">Color</string>
+    <string name="up">To Game</string>
+    <string name="help">Help</string>
+    <string name="About">About</string>
+    <string name="gameBoard">Game Board</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFragment">
+
+
+    <TextView
+        android:id="@+id/MovesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/MovePrompt"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/MovesCounter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MovesCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/blank"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/NGButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_margin="0dip"
+            android:padding="0dip">
+
+            <Button
+                android:id="@+id/button11"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button12"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button13"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_margin="0dip"
+            android:padding="0dip">
+
+            <Button
+                android:id="@+id/button21"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button22"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button23"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button31"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button32"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button33"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:backgroundTint="@color/gray">
+
+            </Button>
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
